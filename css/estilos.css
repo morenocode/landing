@@ -1,8 +1,8 @@
 :root{
     --blanco: #ffffff;
     --oscuro: #212121;
-    --primario: #ffc107;
-    --secundario: #0097a7;
+    --primario: #22409A;
+    --secundario: #F02757;
     --gris: #757575;
     
 
@@ -84,7 +84,7 @@ span{
 
 .navegacion-principal a:hover{
     background-color: var(--primario);
-    color:var(--oscuro);
+    color:var(--blanco);
 }
 
 @media (min-width: 768px){
@@ -96,7 +96,7 @@ span{
 
 
 .hero{
-    background-image: url(../img/hero.jpg);
+    background-image: url(../img/hero-copia.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 450px;
@@ -185,7 +185,7 @@ span{
 /**SCROLL SNAP**/
 .servicios,
 .navegacion-principal,
-.formulario{
+.formulario {
     scroll-snap-align: center;
     scroll-snap-stop: always;
 }
@@ -218,7 +218,7 @@ span{
 }
 
 .formulario{
-    background-color: var(--gris);
+    background-color: var(--primario);
     width: min(60rem, 100%);
     margin: auto;
     padding: 2rem;
@@ -232,7 +232,7 @@ span{
 }
 
 .formulario legend{
-    color: var(--primario);
+    color: var(--blanco);
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
